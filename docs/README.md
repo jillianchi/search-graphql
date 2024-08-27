@@ -6,6 +6,7 @@ Forked from vtex.search-graphql@0.62.0. Main changes: Add CHEAPEST_AVAILABLE to 
 BEFORE
 graphql/types/Product.graphql
 
+```graphql
 enum ItemsFilter {
  """
  Returns all items, same as no filter.
@@ -20,11 +21,12 @@ enum ItemsFilter {
  """
  ALL_AVAILABLE
 }
-
+```
 
 AFTER
 graphql/types/Product.graphql
 
+```graphql
 enum ItemsFilter {
  """
  Returns all items, same as no filter.
@@ -43,4 +45,4 @@ enum ItemsFilter {
  """
  CHEAPEST_AVAILABLE
 }
-
+```
